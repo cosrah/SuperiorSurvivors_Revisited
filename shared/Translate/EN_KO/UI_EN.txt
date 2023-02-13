@@ -1,0 +1,251 @@
+UI_EN = {
+	--[[structure]]--
+
+
+		UI_Option_SS_Title = "생존자 버전",
+	--[[END structure]]--
+
+	--[[global]]--
+
+
+		UI_Option_SS_Off = "끄기",
+		UI_Option_SS_On = "켜기",
+		UI_Option_SS_VeryLow = "매우 낮음",
+		UI_Option_SS_Low = "낮음",
+		UI_Option_SS_Normal = "정상",
+		UI_Option_SS_High = "높음",
+		UI_Option_SS_VeryHigh = "매우 높음",
+	--[[END global]]--
+
+	--[[spawn]]--
+
+
+		UI_Option_SS_SurvivorSpawnRate = "NPC 생성 속도:",
+		UI_Option_SS_SurvivorSpawnRateDesc = " 생존할 임의의 생존자를 정의합니다. NPC는 맵의 타일을 기반으로 생성됩니다.",
+		UI_Option_SS_UltraLow = "매우 낮음",
+		UI_Option_SS_ExtremelyLow = "매우 낮음",
+		UI_Option_SS_SlightlyLower = "약간 낮음",
+		UI_Option_SS_SlightlyHigher = "약간 높게",
+		UI_Option_SS_ExtremelyHigh = "매우 높음",
+		UI_Option_SS_UltraHigh = "매우 높음",
+	--[[END spawn]]--
+
+	--[[alt spawn]]--
+
+
+		UI_Option_SS_AltSpawn = "대체 생성 - 그룹:",
+		UI_Option_SS_AltSpawnOff = "끄기",
+		UI_Option_SS_UpTo1 = "단지 1 NPC 그룹",
+		UI_Option_SS_UpTo2 = "NPC 그룹 1~2개",
+		UI_Option_SS_UpTo3 = "NPC 그룹 1~3개",
+		UI_Option_SS_UpTo4 = "NPC 그룹 1~4개",
+		UI_Option_SS_UpTo5 = "NPC 그룹 1~5개",
+		UI_Option_SS_UpTo6 = "1~6 NPC 그룹 ",
+
+		UI_Option_SS_AltSpawnDesc = "Alt Spawning hourly는 NPC가 스폰되는 새로운 유형의 스폰 방법입니다. 게임 시간마다 주변에 몇 개의 그룹이 스폰되기를 원하십니까? '그룹'에는 매시간 화면 밖에서 스폰되는 NPC가 내부에 포함됩니다. - ( 다른 설정에서 본인이 결정) 이 스폰 방법은 'NPC 스폰율'과 함께 사용할 수 있지만 성능에 따라 효과가 다를 수 있습니다. 이 설정을 'OFF'로 하면 다른 설정도 꺼집니다. 설명을 읽어보세요. 다른 Alt 스폰 옵션에 대해 자세히 알아보세요.",
+		UI_Option_SS_AltSpawnAmount = "최대 Alt Spawn 그룹 크기:",
+		UI_Option_SS_AltSpawnAmount_1 = "1개만",
+		UI_Option_SS_AltSpawnAmount_2 = "최대 1에서 2까지 무작위",
+		UI_Option_SS_AltSpawnAmount_3 = "최대 1에서 3까지 무작위 ",
+		UI_Option_SS_AltSpawnAmount_4 = "최대 1에서 4까지 무작위",
+		UI_Option_SS_AltSpawnAmount_5 = "최대 1에서 5까지 무작위",
+		UI_Option_SS_AltSpawnAmount_6 = "최대 1에서 6까지 무작위",
+
+		UI_Option_SS_AltSpawnAmountDesc = "AltSpawnAmountDesc = "대체 생성과 함께 , 주사위가 굴려 이길 때마다 그룹의 크기를 결정할 수 있습니다. 10%를 선택했고 주사위가 성공하여 그 시간에 NPC를 생성했다고 가정해 보겠습니다. 단지 1 NPC, 그것은 1에서 6 사이의 또 다른 주사위를 굴릴 것이고 당신은 많은 NPC를 얻을 것입니다. 시간당 알트 스폰과 함께 이것을 높은 숫자로 설정하면 지연이 발생할 수 있습니다 .(알트 스폰이 꺼진 경우 , 이 옵션도 비활성화됨)",
+		UI_Option_SS_AltSpawnPercent = "대체 생성 - 확률:",
+		UI_Option_SS_AltSpawnPercentDesc = "% 확률로 매시간 NPC 그룹이 주변에 생성될 확률을 제어할 수 있습니다. 게임 내 시간 동안 % 확률 주사위가 무작위 롤(Random 1-100)을 초과하면 NPC 그룹이 화면 밖에서 주변에 생성됩니다.",
+	--[[END alt spawn]]--
+
+	--[[preset spawn]]--
+
+
+		UI_Option_SS_NoPreSetSpawn = "모든 사전 설정/고유 생존자 비활성화",
+		UI_Option_SS_NoPreSetSpawnDesc = "모든 사전 설정/고유 생존자 비활성화",
+	--[[END preset spawn]]--
+
+	--[[names]]--
+
+
+		UI_Option_SS_Display_Survivor_Names = "NPC 이름 표시: ",
+		UI_Option_SS_Display_Survivor_NamesDesc = "NPC의 이름을 머리 위에 표시하시겠습니까?",
+		UI_Option_SS_Display_Hostile_Color = "적대적인 색상 표시: ",
+		UI_Option_SS_Display_Hostile_ColorDesc = "NPC가 적대적인지 알고 싶습니까? 이 '꺼짐'을 설정하면 적대적인 NPC의 이름이 빨간색으로 빛나는 것을 방지할 수 있습니다.",
+		UI_Option_SS_RoleplayMessage = "역할극 메시지 표시:",
+		UI_Option_SS_RoleplayMessageDesc = " 작업 메시지 표시 여부를 정의합니다.",
+	--[[END names]]--
+
+	--[[hostile]]--
+
+
+		UI_Option_SS_ChancetobeHostile = "적대적 NPC - 적대적 생성:",
+		UI_Option_SS_ChancetobeHostileDesc = "이것은 무작위 스폰 생존자가 스폰될 때 적대적일 확률을 정의합니다 .",
+		UI_Option_SS_MaxHostileSpawnRate = "적대적 NPC - 시간 경과에 따른 적대적:",
+		UI_Option_SS_MaxHostileSpawnRateDesc = "시간이 지남에 따라 적대적이 될 확률은 증가하지만 이 %에서 제한되며 이 %를 초과하지 않습니다. 이 옵션이 여전히 작동하는지 확실하지 않습니다. ",
+	--[[END hostile]]--
+
+	--[[raiders]]--
+
+
+		UI_Option_SS_RaidersChance = "레이더 이벤트 생성 - 확률:",
+		UI_Option_SS_RaidersChanceDesc = "시작 날짜가 지난 후 Raider 이벤트가 발생할 확률입니다.",
+		UI_Option_SS_RaidersAfterHours = "레이더 이벤트 생성 - 낮 이후:",
+		UI_Option_SS_StartImmediately = "즉시 시작",
+		UI_Option_SS_AfterDay1 = "1일 후",
+		UI_Option_SS_AfterDay5 = "5일 후",
+		UI_Option_SS_AfterDay10 = "10일 후",
+		UI_Option_SS_AfterDay15 = "15일 후",
+		UI_Option_SS_AfterDay20 = "20일 후",
+		UI_Option_SS_AfterDay25 = "25일 후",
+		UI_Option_SS_AfterDay30 = "30일 후",
+		UI_Option_SS_AfterDay35 = "35일 후",
+		UI_Option_SS_AfterDay40 = "40일 후",
+		UI_Option_SS_AfterDay45 = "45일 후",
+		UI_Option_SS_AfterDay50 = "50일 후",
+		UI_Option_SS_AfterDay55 = "55일 후",
+		UI_Option_SS_AfterDay60 = "60일 후",
+		UI_Option_SS_AfterDay65 = "65일 후",
+		UI_Option_SS_AfterDay70 = "70일 후",
+		UI_Option_SS_AfterDay75 = "75일 후",
+		UI_Option_SS_AfterDay80 = "80일 후",
+		UI_Option_SS_AfterDay85 = "85일 후",
+		UI_Option_SS_AfterDay90 = "90일 후",
+		UI_Option_SS_AfterDay95 = "95일 후",
+		UI_Option_SS_AfterDay100 = "100일 후",
+		UI_Option_SS_Never = "안함",
+		UI_Option_SS_RaidersAfterHoursDesc = "이 시간이 지나면 Raiders 이벤트가 무작위로 발생할 수 있습니다. Raiders Guaranteed 이벤트도 이 시간이 지난 후에만 계산을 시작합니다 .",
+		UI_Option_SS_RaidersGuaranteed = "레이더 이벤트 생성 - 빈도:",
+		UI_Option_SS_Every5Days = "5일마다",
+		UI_Option_SS_Every10Days = "10일마다",
+		UI_Option_SS_Every15Days = "15일마다",
+		UI_Option_SS_Every20Days = "20일마다",
+		UI_Option_SS_Every25Days = "25일마다",
+		UI_Option_SS_Every30Days = "30일마다",
+		UI_Option_SS_Every35Days = "35일마다",
+		UI_Option_SS_Every40Days = "40일마다",
+		UI_Option_SS_Every45Days = "45일마다",
+		UI_Option_SS_Every50Days = "50일마다",
+		UI_Option_SS_Every55Days = "55일마다",
+		UI_Option_SS_Every60Days = "60일마다",
+		UI_Option_SS_Every65Days = "65일마다",
+		UI_Option_SS_Every70Days = "70일마다",
+		UI_Option_SS_Every75Days = "곧 75일",
+		UI_Option_SS_Every80Days = "80일마다",
+		UI_Option_SS_Every85Days = "85일마다",
+		UI_Option_SS_Every90Days = "90일마다",
+		UI_Option_SS_Every95Days = "95일마다",
+		UI_Option_SS_Every100Days = "100일마다",
+		UI_Option_SS_EveryDay = "매일!",
+		UI_Option_SS_EveryHour = "매시간!",
+		UI_Option_SS_Every10Minutes = "10분마다!",
+		UI_Option_SS_RaidersGuaranteedDesc = "Raiders 시작 날짜가 지났고 해당 시간 동안 Raiders 이벤트가 발생하지 않은 경우. 이 시간이 지나면 Raiders가 생성됩니다.",
+	--[[END raiders]]--
+
+	--[[weapons]]--
+
+
+		UI_Option_SS_ChancetoSpawnWithGun = "NPC 총 무기 확률:",
+		UI_Option_SS_ChancetoSpawnWithGunDesc = "총을 들고 스폰될 기회 ",
+		UI_Option_SS_WepSpawnRate = "NPC 근접 무기 확률:",
+		UI_Option_SS_WepSpawnRateDesc = "이것은 NPC가 세계에 스폰될 때 무작위 근접 무기도 함께 가질 가능성을 정의합니다.",
+	--[[END weapons]]--
+
+	--[[bravery]]--
+
+
+		UI_Option_SS_Panic_Distance = "[실험] - 패닉 디스턴스",
+		UI_Option_SS_Panic_DistanceDesc = "FleeAwayFromHereTask 파일에는 이전에 '내가 있던 곳에서 내 거리가 30블록 미만이면 계속 패닉 상태로 도망가십시오'로 설정된 값이 있었습니다. 이 옵션을 사용하면 해당 값을 언제든지 변경할 수 있습니다. FleeAwayFromHereTask가 NPC에게 주어지는 시간 입니다. 이 값을 0으로 설정하면 npc가 아무것도 하지 않거나 1블록만 이동할 수 있습니다(말이 안 되지만 실험적인 이유입니다.)" ,
+		UI_Option_SS_SurvivorBravery = "생존자 용기",
+		UI_Option_SS_SurvivorBraveryDesc = "생존자가 도망치거나 피하는 대신 싸울 가능성을 결정합니다.",
+		UI_Option_SS_Cowardly = "겁쟁이",
+		UI_Option_SS_Brave = "Br ave",
+		UI_Option_SS_VeryBrave = "매우 용감함",
+	--[[END bravery]]--
+
+	--[[friendliness]]--
+
+
+		UI_Option_SS_SurvivorFriendliness = "생존자 친화도:",
+		UI_Option_SS_SurvivorFriendlinessDesc = "이것은 임의의 생존자를 팀에 합류시키는 것이 얼마나 쉬운지를 정의합니다. 더 많은 선물을 제공하면 파티 초대 수락 가능성이 높아지지만 초대로 버그를 보낼 때마다 기회도 줄어듭니다. 따라서 스팸 초대는 좋은 일 많이 하지마.",
+		UI_Option_SS_DesperateforHumanContact = " 인간 접촉이 절실함",
+		UI_Option_SS_VeryFriendly = "매우 우호적",
+		UI_Option_SS_Friendly = "우호적",
+		UI_Option_SS_Mean = "평균",
+		UI_Option_SS_VeryMean = "매우 비열함",
+	--[[END friendliness]]--
+
+	--[[on/off options]]--
+
+
+		UI_Option_SS_LockNLoad = "전투 모드 준비:",
+		UI_Option_SS_LockNLoadDesc = "당신과 당신의 아내(활성화된 경우)는 게임 시작 시 총과 탄약, 갑옷(방어구 모드가 활성화된 경우)과 함께 생성됩니다. 높은 생성률로 Raiders를 시도할 계획이라면 사용하기에 좋은 모드입니다.",
+		UI_Option_SS_WifeSpawn = "아내/남편 생성:",
+		UI_Option_SS_WifeSpawnDesc = "게임 시작 시 이미 그룹에 있는 아내 또는 남편과 함께 스폰됩니다.",
+		UI_Option_SS_InfinitAmmo = "생존자 무한 탄약:",
+		UI_Option_SS_InfinitAmmoDesc = "켜져 있는 경우 생존자는 총을 사용하기 위해 탄약이 필요하지 않으며 탄약이 떨어지지 않습니다. 꺼진 경우 생존자는 총을 쏘기 위해 인벤토리에 탄약이나 상자가 필요합니다. 그리고 오른쪽 클릭 메뉴를 통해 더 많은 탄약을 받을 수 있으며 시도합니다. 탄약이 떨어지면 근처에서 탄약을 찾을 수 있습니다.",
+		UI_Option_SS_FindWork = "생존자 자동 기지 작업:",
+		UI_Option_SS_FindWorkDesc = "켜져 있으면, 기지 안이나 근처에 있는 생존자들은 할 일이 없을 때 스스로 기지 주변에서 몇 가지 작업을 할 수 있습니다. 꺼져 있으면 절대로 스스로 작업을 하기로 결정하지 않을 것입니다." ,
+		UI_Option_SS_SurvivorHunger = "생존자 굶주림 및 갈증",
+		UI_Option_SS_SurvivorHungerDesc = "Off인 경우 생존자는 배고프거나 목이 마르지 않습니다. On인 경우 스스로 필요한 것을 찾으려고 시도하지만 그렇게 할 것입니다.",
+		UI_Option_SS_SafeBase = "안전 기지",
+		UI_Option_SS_SafeBaseDesc = "야생 생존자는 표시된 기지를 피할 것입니다.",
+		UI_Option_SS_SurvivorBases = "생존자 기지",
+		UI_Option_SS_SurvivorBasesDesc = "야생 생존자는 자신만의 기지를 세울 것입니다 .",
+		UI_Option_SS_PVPInfoBar = "PVP 모드: ",
+		UI_Option_SS_PVPInfoBarDesc = "이전에는 설정 lua에서 이것을 설정하기 위해 settings.lua 파일로 이동하지 않고도 PVP 모드를 켤 수 있습니다. 이것은 적대적인 NPC가 당신을 때릴 수 없는 곳을 만들지 않습니다. 그래서 이것을 ' off'는 여전히 적대적인 NPC를 만날 때 PVP를 강제로 켭니다. 이 설정은 몇 번 요청되었으므로 기본적으로 PVP를 켜려면 화면 오른쪽 하단에 있는 PVP 버튼을 누르지 않아도 됩니다." ,
+	--[[END on/off options]]--
+
+	--[[perception]]--
+
+
+		UI_Option_SS_PerceptionBonus = "[실험] - NPC 인식 부스트: ",
+		UI_Option_SS_PerceptionBonusDesc = "이 옵션은 NPC가 '알아야 했을 것'처럼 보일 때 적대적인 것이 가까이 있을 때 '알도록' 도와야 합니다. (이 옵션은 완전히 테스트되지는 않았지만 괜찮은 결과로 간주됩니다.)",
+		UI_Option_SS_FollowGlobalRange = "[변경됨] - 추종자 스프린트 범위:",
+		UI_Option_SS_FollowGlobalRangeDesc = "이것은 '따라가기' 명령을 제어하여 NPC가 당신에게서 x 거리에 있을 때 뛰거나 걸을 수 있는 기능을 제공합니다. (이전에는 NPC를 더 가깝게 불러야 했습니다.) 이 옵션은 예기치 않은 결과를 초래할 수 있습니다. 피드백이 필요합니다.(+ 및 - 핫키(키보드 오른쪽)를 눌러 추종자를 더 가깝게/더 멀리/당신에게로 가져올 수 있음을 잊지 마십시오.) (또한 거리 '0'으로 가져오면 그들은 이상하게 행동 할 것입니다) ",
+	--[[END perception]]--
+
+	--[[hotkeys]]--
+
+
+		UI_Option_SS_hotkey1 = "단축키 1 동작",
+		UI_Option_SS_hotkey2 = "단축키 2 동작",
+		UI_Option_SS_hotkey3 = "단축키 3 동작",
+		UI_Option_SS_hotkey4 = "단축키 4 동작",
+
+		UI_Option_SS_hotkeyDesc = "이 단축키를 누를 때 일어날 행동을 선택하십시오. 모든 행동은 범위 내의 모든 구성원에게 영향을 미칩니다 . 다른 행동은 당신의 말을 듣고 있는 사람에게만 영향을 미칩니다(t 단축키와 함께 사용).",
+	--[[END hotkeys]]--
+
+	--[[bindings]]--
+
+
+		UI_optionscreen_binding_SS_optionscreen_binding_Call 가장 가까운 그룹 구성원 = "가장 가까운 그룹 구성원 호출",
+		UI_optionscreen_binding_SS_optionscreen_binding_Call 가장 가까운 비그룹 구성원 = "가장 가까운 비그룹 구성원 호출",
+		UI_optionscreen_binding_SS_optionscreen_binding_Ask 가장 가까운 그룹 구성원에게 팔로우 요청 = "가장 가까운 그룹 구성원에게 팔로우 요청",
+		UI_optionscreen_binding_SS_optionscreen_binding_Spawn Wild Survivor = "야생 생존자 생성",
+		UI_optionscreen_binding_SS_optionscreen_binding_Toggle 그룹 창 = "그룹 창 전환",
+		UI_optionscreen_binding_SS_optionscreen_binding_Lower Follow Distance = "낮은 팔로우 거리",
+		UI_optionscreen_binding_SS_optionscreen_binding_Hotkey_1 = "SSHotkey 1 명령",
+		UI_optionscreen_binding_SS_optionscreen_binding_Hotkey_2 = "SSHotkey 2 명령",
+		UI_optionscreen_binding_SS_optionscreen_binding_Hotkey_3 = "SSHotkey 3 지시어",
+		UI_optionscreen_binding_SS_optionscreen_binding_Hotkey_4 = "SSHotkey 4 지시어",
+
+	--[[END bindings]]--
+
+	--[[debug]]--
+
+
+		UI_Option_SS_DebugOptions = "디버그 옵션",
+		UI_Option_SS_DebugOptionsDesc = "생존자 옵션 디버그 오른쪽 클릭 켜기 ",
+		UI_Option_SS_DebugSay = "SuperDebug() 모드 - 지연 경고: ",
+		UI_Option_SS_DebugSayDesc = "NPC가 SuperDebug 정보를 알려주려면 superdebug()와 함께 디버그 모드를 켜야 합니다. 이렇게 하면 NPC에 대한 DebugSay 기능이 활성화됩니다. 이 기능은 NPC가 무엇을 하고 있는지에 대한 정확한 세부 정보를 제공하는 사용자 지정 기능입니다. 콘솔/게임 채팅에서 SuperDebug 정보를 받으려면 NPC로부터 최소 6블록 떨어져 있어야 합니다.",
+		UI_Option_SS_DebugSay_Distance = " SuperDebug() - 거리: ",
+		UI_Option_SS_DebugSay_DistanceDesc = "NPC의 'SuperDebug' 기능에서 디버그 정보를 볼 수 있는 거리를 선택할 수 있습니다. 이 수치를 낮게 유지하는 것이 좋습니다 . 콘솔.",
+		UI_Option_SS_LowerFollowDistance = "추종 거리 감소",
+		UI_Option_SS_RaiseFollowDistance = "추종 거리 올리기",
+		UI_Option_SS_CallClosestGroupMember = "가까운 그룹 멤버 호출",
+		UI_Option_SS_CallClosestNonGroupMember = "가까운 비그룹 멤버 호출",
+		UI_Option_SS_AskClosestGroupMembertoFollow = "가까운 그룹 구성원에게 팔로우 요청",
+		UI_Option_SS_WarningMSG = "지원되지 않는 모드 메시지: ",
+		UI_Option_SS_WarningMSGDesc = "경고: 우수한 생존자 모드가 처리할 수 없는 모드를 비활성화하려고 합니다. 이 경고 시스템은 새로운 기능이므로 플레이어는 모든 모드를 수동으로 확인하는 대신 우수한 생존자가 작동하도록 비활성화할 모드를 알 수 있습니다. 우월한 생존자를 깨뜨리는 모드를 알고 있다면 커뮤니티를 돕기 위해 디스코드나 스팀 페이지에 신고해 주세요!NPC 모드가 작동하도록 문제의 모드를 비활성화하라는 경고 메시지가 있습니다.만약 당신이 이 옵션을 끄면 혼자입니다."
+	--[[END debug]]--
+}
+

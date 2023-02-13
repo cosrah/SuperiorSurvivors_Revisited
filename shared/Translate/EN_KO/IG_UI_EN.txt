@@ -1,0 +1,114 @@
+IGUI_EN = {
+	--[[roleplay
+		texts that are just describing what the survivor is doing
+	]]--
+
+
+		IGUI_SS_Drinking = "술..",
+		IGUI_SS_EatFood_Before = "먹기",
+		IGUI_SS_EatFood_After = "",
+		IGUI_SS_Opens_Before = "열기",
+		IGUI_SS_Opens_After = "",
+		IGUI_SS_Takes_Before = "테이크",
+		IGUI_SS_Takes_After = "",
+		IGUI_SS_EquipsArmor = "방어구 장착",
+		IGUI_SS_EquipsArmor_Before = "*장비",
+		IGUI_SS_EquipsArmor_After = "*",
+		IGUI_SS_TakesItemFromGround_Before = "테이크",
+		IGUI_SS_TakesItemFromGround_After = "지상에서",
+		IGUI_SS_TakesFromGround_Before = "*테이크",
+		IGUI_SS_TakesFromGround_After = "지면에서*",
+		IGUI_SS_TakesFromCont_Before = "*테이크",
+		IGUI_SS_TakesFromCont_After = "컨테이너에서*",
+		IGUI_SS_UndressingClothes = "*옷 벗기*",
+		IGUI_SS_PickUpCorpse = "*땅에서 시체를 가져옵니다*",
+		IGUI_SS_Resting = "휴식 중...",
+		IGUI_SS_BandageBP_Before = "붕대감기",
+		IGUI_SS_BandageBP_After = "",
+		IGUI_SS_DoctorSplint = "*부목 적용 중...*",
+		IGUI_SS_DoctorBandageRemove = "*붕대 제거 중...*",
+		IGUI_SS_DoctorStitches = "*스티칭 적용*",
+		IGUI_SS_DoctorGlass = "*유리 제거 중...*",
+		IGUI_SS_DoctorBullet = "*총알 제거 중...*",
+		IGUI_SS_DoctorBandage = "*붕대를 감는 중...*",
+		IGUI_SS_Foraging = "*채집...",
+		IGUI_SS_FarmingActionPlanting = "*씨앗 심기...*",
+		IGUI_SS_FarmingActionHarvesting = "*수확 중...*",
+		IGUI_SS_FarmingActionWatering = "*물주기...*",
+	--[[END roleplay]]--
+
+	--[[starting tasks
+		dialogue lines that indicate the start of a task
+	]]--
+
+
+		IGUI_SS_IGoRelax = "잠시 쉬겠습니다",
+		IGUI_SS_IGoGetWood = "장작을 모으러 가겠습니다",
+		IGUI_SS_IGoPileCorpse = "시체를 쌓아야겠습니다",
+		IGUI_SS_IGoForage = "채집하러 가야겠네요",
+		IGUI_SS_IGoChopWood = "나무를 베러 가야겠습니다",
+		IGUI_SS_IGoFarm = "농사로 돌아갈 것 같아요",
+		IGUI_SS_IGoGuard = "다시 가드로 돌아가겠습니다",
+		IGUI_SS_IGoBackBase = "기지로 돌아가겠습니다",
+	--[[END starting tasks]]--
+
+	--[[loot
+		dialogue lines that indicate the start of a loot task
+	]]--
+
+
+		IGUI_SS_LookForItem_Before = "찾으러 가겠습니다",
+		IGUI_SS_LookForItem_After = "",
+		IGUI_SS_NoForagingHere = "아무것도 찾을 수 없습니다",
+		IGUI_SS_NoFindItem_Before = "없는 것 같습니다",
+		IGUI_SS_NoFindItem_After = "이 근처",
+		IGUI_SS_NoWoodHere = "주변에 나무가 없습니다",
+	--[[END loot]]--
+
+	--[[giving
+		dialogue lines that indicate a giving item task
+	]]--
+
+
+		IGUI_SS_TakeArmor = "여기 이 갑옷을 가져가세요",
+		IGUI_SS_Nothing = "아무것도",
+		IGUI_SS_EveryOneUseMele = "모두 근접 무기를 사용하세요!",
+		IGUI_SS_EveryOneUseGun = "모두 총기를 사용하세요!",
+		IGUI_SS_WantSomeFood = "음식을 원하십니까?",
+		IGUI_SS_YouWantWater = "물 좀 드릴까요?",
+		IGUI_SS_YouWantAmmo = "탄약을 원하십니까?",
+		IGUI_SS_TakeMyWeapon = "여기 내 무기를 가져가세요",
+	--[[END giving]]--
+
+	--[[interactions
+		dialogue lines that indicate a giving item task
+	]]--
+
+
+		IGUI_SS_OverHere = "이봐! 여기!",
+		IGUI_SS_HoldStill = "가만히 있어 주세요...",
+		IGUI_SS_ComeWithMe_Before = "",
+		IGUI_SS_ComeWithMe_After = "나와 함께 가자!",
+		IGUI_SS_CallName_Before = "",
+		IGUI_SS_CallName_After = "! 이리 와!",
+		IGUI_SS_CanIJoin = "귀하의 그룹에 가입할 수 있습니까?",
+		IGUI_SS_YouWantToJoin = "내 그룹에 가입하시겠습니까?",
+		IGUI_SS_WeBackToBase = "돌아오겠습니다",
+		IGUI_SS_DoctorDone = "새것처럼 좋습니다! 이제 진정하세요!",
+	--[[END interactions]]--
+
+	--[[not able to do
+		dialogue lines that indicate that the task couldn't be done
+	]]--
+
+
+		IGUI_SS_NotInBuilding = "우리는 건물 안에 있지 않습니다",
+		IGUI_SS_NoTrees = "주변에 나무가 없습니다",
+		IGUI_SS_NoAxeNoChopWood = "아무데도 도끼가 없고, 나무 베기를 포기함",
+		IGUI_SS_CantCarryMore = "더 이상 옮길 수 없습니다",
+		IGUI_SS_NoFarmingArea = "지정된 영농 지역이 없습니다",
+		IGUI_SS_IDontKnowHowFarming = "파밍을 할 줄 모릅니다."
+	--[[END not able to do]]--
+
+}
+

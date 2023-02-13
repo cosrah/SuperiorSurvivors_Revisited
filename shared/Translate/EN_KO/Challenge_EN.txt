@@ -1,0 +1,6 @@
+Challenge_EN = {
+	Challenge_PrisonEscape_name = "탈옥",
+    Challenge_PrisonEscape_desc = "참사 직후 로즈우드 교도소 내의 대부분의 죄수들은 관리인력 부족으로 탈출을 감행했습니다. 그러나 불행히도 당신은 모두에게 잊혀진채로 남겨지고 말았고, 이미 탈출할 최고의 기회를 놓치고 말았습니다. 지금 서두르지 않는다면 더이상의 기회는 남지 않을지도 모릅니다.",
+    Challenge_PrisonEscapeInfoBox = "너무 늦기전에, 최대한 빨리 탈출하십시오!"
+	Challenge_PrisonKeyRing = "의 열쇠고리"
+}
