@@ -32,7 +32,7 @@ function DoctorTask:FindPatient()
 
 	local player = self.parent.player
 	local patient = nil
-	local range = 15;
+	local range = 30;
 	local Square, closestsoFarSquare;
 	local minx=math.floor(player:getX() - range);
 	local maxx=math.floor(player:getX() + range);
@@ -95,8 +95,8 @@ function DoctorTask:update()
 					if(bandage == nil) then bandage = doctor:getInventory():AddItem("Base.Bandage") end
 					local rippedsheets = doctor:getInventory():FindAndReturn("RippedSheets")
 					if(rippedsheets == nil) then rippedsheets = doctor:getInventory():AddItem("Base.RippedSheets") end
-								
-					foundbodypartneedingtreatment = true	
+					
+					foundbodypartneedingtreatment = true
 					self.parent:DebugSay("DoctorTask is about to trigger a StopWalk! ")
 					self.parent:StopWalk()
 					if treatment == "Splint" then 
@@ -114,7 +114,7 @@ function DoctorTask:update()
 					elseif treatment == "Remove Bullet" then 
 						self.parent:RoleplaySpeak(getActionText("DoctorBullet"))
 						ISTimedActionQueue.add(ISRemoveBullet:new(doctor, self.Patient, bp))
-					elseif treatment == "Bandage" then 						
+					elseif treatment == "Bandage" then
 						ISTimedActionQueue.add(ISDisinfect:new(doctor, self.Patient, alcohol, bp))
 						self.parent:RoleplaySpeak(getActionText("DoctorBandage"))
 						ISTimedActionQueue.add(ISApplyBandage:new(doctor, self.Patient, bandage, bp, true))

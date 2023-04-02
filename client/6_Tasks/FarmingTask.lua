@@ -55,7 +55,7 @@ function FarmingTask:getSomeSeeds()
 
 	local typeofseedindex = ZombRand(1,#self.Seeds)
 	local typeofseed = self.Seeds[typeofseedindex]
-	--self.parent:Speak("seed type chosen is:" .. tostring(typeofseed))
+	self.parent:Speak("Seed type chosen is:" .. tostring(typeofseed))
 	local seeds = {}
 
 	for i=1,12 do
@@ -82,7 +82,7 @@ function FarmingTask:getPlant(sq)
 		--print("CFarmingSystem used")
 	else 
 		plant = basicFarming.getCurrentPlanting(sq)
-		--print("basic farming used")		
+		--print("basic farming used")
 	end
 	if plant then return plant
 	else return nil end
@@ -263,7 +263,7 @@ function FarmingTask:update()
 	if(self.parent:isInAction() == false) then
 	
 		if(self.JustHarvested) then -- go store crops
-			--self.parent:Speak("going to harvested goods")
+			self.parent:Speak("Going to harvested goods")
 			local storagecontainer = self.group:getGroupAreaContainer("FoodStorageArea")
 			local dest 
 			if(storagecontainer) then
